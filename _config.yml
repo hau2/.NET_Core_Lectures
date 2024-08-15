@@ -2,3 +2,7 @@ title: "My GitHub Pages Application"
 description: "An app to display markdown files from multiple folders"
 theme: jekyll-theme-cayman
 markdown: kramdown
+collections:
+  folders:
+    output: true
+    permalink: /:collection/:path/
